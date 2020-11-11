@@ -1,0 +1,9 @@
+/.dart_tool
+/.idea
+/.packages
+/android
+/app2.iml
+/build
+/ios
+/pubspec.lock
+/web
