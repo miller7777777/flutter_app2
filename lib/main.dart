@@ -11,7 +11,7 @@ void main() {
       body: Stack(
         children: [
           Text(
-            "А куда ты хочешь попасть?",
+            "Рђ РєСѓРґР° С‚С‹ С…РѕС‡РµС€СЊ РїРѕРїР°СЃС‚СЊ?",
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 30, fontFamily: "OpenSans"),
           ),
@@ -25,12 +25,12 @@ void main() {
             child: ButtonBar(
               children: [
                 MaterialButton(
-                  child: Text("Заберите меня отсюда"),
+                  child: Text("Р—Р°Р±РµСЂРёС‚Рµ РјРµРЅСЏ РѕС‚СЃСЋРґР°"),
                   color: Colors.blue,
                   onPressed: null,
                 ),
                 MaterialButton(
-                  child: Text("Только вперед"),
+                  child: Text("РўРѕР»СЊРєРѕ РІРїРµСЂРµРґ"),
                   color: Colors.red,
                   onPressed: null,
                 ),
