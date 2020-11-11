@@ -20,10 +20,23 @@ void main() {
               image: AssetImage("assets/images/cat.png"),
             ),
           ),
-          Align(alignment: Alignment.bottomCenter),
-          
-
-          ])
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: ButtonBar(
+              children: [
+                MaterialButton(
+                  child: Text("Заберите меня отсюда"),
+                  color: Colors.blue,
+                  onPressed: null,
+                ),
+                MaterialButton(
+                  child: Text("Только вперед"),
+                  color: Colors.red,
+                  onPressed: null,
+                ),
+              ],
+            ),
+          )
         ],
       ),
     ),
