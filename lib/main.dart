@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:io';
 
 void main() {
   runApp(MaterialApp(
@@ -23,16 +24,19 @@ void main() {
           Align(
             alignment: Alignment.bottomCenter,
             child: ButtonBar(
+              mainAxisSize: MainAxisSize.min,
               children: [
                 MaterialButton(
                   child: Text("Заберите меня отсюда"),
+                  height: 40,
                   color: Colors.blue,
-                  onPressed: null,
+                  onPressed: () => exit(0),
                 ),
                 MaterialButton(
                   child: Text("Только вперед"),
+                  height: 40,
                   color: Colors.red,
-                  onPressed: null,
+                  onPressed: () => {},
                 ),
               ],
             ),
